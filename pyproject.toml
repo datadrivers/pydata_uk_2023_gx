@@ -8,12 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8, <3.11"
 great-expectations = "0.15.28"
-sqlalchemy-bigquery = "1.4.4"
-google-cloud-storage = "2.5.0"
+jupyterlab = "^3.6.3"
 
 
 [tool.poetry.group.dev.dependencies]
-jupyterlab = "^3.6.3"
 seaborn = "^0.12.2"
 
 
