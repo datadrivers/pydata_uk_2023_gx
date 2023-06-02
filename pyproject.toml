@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "london"
+version = "0.1.0"
+description = ""
+authors = ["CarstenFrommhold <carsten.frommhold@datadrivers.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8, <3.11"
+great-expectations = "0.15.28"
+sqlalchemy-bigquery = "1.4.4"
+google-cloud-storage = "2.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^3.6.3"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
