@@ -4,7 +4,7 @@ PyData London, June 2023
 
 ## Initialize the configuration for local file data context
 
-After installing GX, 
+After setting up the virtual environment, go for
 
 ```bash
 great_expectations init
@@ -16,7 +16,7 @@ and
 great_expectations datasource new 
 ```
 
-will guide you through the setup.  
+This will guide you through the setup.  
   
 Note:  
 * Give the source the name *source_local*
